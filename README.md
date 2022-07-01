@@ -25,6 +25,7 @@
 
 - I used html,css to build entire design
 - Continuously updated in github.
+- Some animation,transform done using css.
 - After finish, I deploy it with vercel.
 - Also build with love.
 
