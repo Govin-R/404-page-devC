@@ -7,7 +7,6 @@
       content="width=device-width, initial-scale=1,
   maximum-scale=5"
     />
-
     <link rel="icon" href="devchallenges.png" />
 
     <link
@@ -21,47 +20,79 @@
       rel="stylesheet"
     />
 
-    <title>Devchallenges</title>
+    <title>404 Page-Not-Found</title>
 
     <style>
       body {
-        font-family: "Poppins", sans-serif;
+				
+			 font-family: "Poppins", sans-serif;
+				
       }	
 			#container{
-				width:100%;
-				height:90vh;
+				height:100%;
 				display:flex;
-				justify-content:space-around;
-				align-items:center;
+				flex-direction:column;
 			}
 			#scarecrow{
 				
-				width:50px;	
-				flex-basis:50%;
-				padding:20px;
+				animation:10s 1s infinite running crowboy;
+				
+				
+				padding:2rem;
 			}
 			#textside{
-				width:50%;	
-				padding:20px;
+				width:80%;		
+				padding:2rem;
+				padding-top:0;
 			}
 			#tsh{
-				font-size:3.5em;
+				font-size:3em;
+				transition:all 400ms ease-in-out;
+			}
+			#tsh:hover{
+				transform:translate(1rem);
 			}
 			#tsp{
-				font-size:1.5em;
+				font-size:1.3em;
+				padding-bottom:1rem;
 			}
 			#found{
 				padding:1em 1em 0 1em;
 			}
 			#tsb{
 				text-decoration:none;
-				padding:1.2em;}
+				padding:1.2em;
+				background-color:black;
+				font-size:1rem;
+				color:white;
+				border-radius:7px;
+				outline:none;
+				border:none;
+				transition:all 200ms ease-in;
+				width:10rem;
+				height:3.7rem;
+				font-weight:bold;
+			}
+			#tsb:hover{
+				font-size:0.9rem;
+				
+				transform: rotate(5deg);
+			}
+			#bottom{
+				text-align:center;
+			}
+			#bp a{
+				text-decoration:none;
+				color:black;
+				font-weight:bold;
+			}
 
-			@media(min-width:720px){
+			@media(min-width:620px){
 			#container{
 				width:100%;
 				height:90vh;
 				display:flex;
+				flex-direction:row;
 				justify-content:space-around;
 				align-items:center;
 			}
@@ -75,6 +106,26 @@
 				width:50%;	
 				padding:20px;
 			}}
+
+			@keyframes crowboy{
+				0% {
+					transform: translate(0) rotate(0deg);
+				}
+				20%{
+					transform: rotate(10deg);
+				}
+				55%{
+					transform: rotate(-7deg);
+				}
+				78%{
+					transform:rotate(5deg);
+				}
+				100%{
+					transform:roate(-3deg);
+				}
+			}
+
+
 			
 
 			
@@ -84,7 +135,7 @@
   </head>
   <body>
 			<h2 id="found">404 NOT FOUND</h2>
-			<section id="container">
+			<div id="container">
 				<img src="./Scarecrow.png" alt="scarecrow image" id="scarecrow"/>
 				<div id="textside">
 					<h1 id="tsh">I have bad news for you</h1>	
@@ -93,6 +144,10 @@
 					</p>
 					<button id="tsb"> BACK TO HOME </button>
 				</div>
-			</section>
+
+			</div>
+			<footer id="bottom">
+				<p id="bp">Made by : <a href="https://github.com/Govin-R" target="_blank">Govi</a> , Challenged by <a href="https://devchallenges.io/" target="_blank">Devchallenges</a></p>
+			</footer>
   </body>
 </html>
