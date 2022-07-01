@@ -1,6 +1,6 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{404 Page-Not-Found with html,css}</h1>
+<h1 align="center">404 Page-Not-Found with html,css</h1>
 
 ### About
  
@@ -30,5 +30,5 @@
 
 ## Author
 
-- GitHub [@your-username](https://{github.com/Govin-R})
-- Twitter [@your-twitter](https://{twitter.com/g_repl})
+- GitHub [@Govin-R](https://{github.com/Govin-R})
+- Twitter [@Govind](https://{twitter.com/g_repl})
