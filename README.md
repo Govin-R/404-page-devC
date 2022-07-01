@@ -31,4 +31,4 @@
 ## Author
 
 - GitHub [@Govin-R](https://github.com/Govin-R)
-- Twitter [@Govind](https://twitter.com/g_repl)
+- Twitter [@Go](https://twitter.com/g_repl)
