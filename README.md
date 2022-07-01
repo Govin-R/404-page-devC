@@ -10,7 +10,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{page-not-found-alpha.vercel.app/}">
+    <a href="https://page-not-found-alpha.vercel.app/">
       Live here...
     </a>
     <span> | </span>
